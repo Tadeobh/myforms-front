@@ -1,0 +1,11 @@
+.title-input {
+    width: 100%;
+    border: none;
+    line-height: 25px;
+}
+
+.title-input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: -2px;
+}

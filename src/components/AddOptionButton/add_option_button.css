@@ -1,0 +1,14 @@
+.add-option-button {
+    padding: 0.2rem 0.75rem;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    color: var(--gray);
+    background-color: var(--white);
+}
+
+.add-option-button:hover {
+    color: var(--dark-gray);
+    border-color: var(--light-gray);
+    background-color: var(--div-gray);
+}

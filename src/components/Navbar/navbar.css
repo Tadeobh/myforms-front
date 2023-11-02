@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: var(--primary);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: var(--light);
+  }
+
+.navbar-container a {
+    color: var(--light);
+}
+
+.navbar-divider {
+    margin: 0 1rem;
+}
+
+.navbar-auth-link {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.navbar-auth-link:hover {
+    text-decoration: underline;
+}

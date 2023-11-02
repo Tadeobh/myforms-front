@@ -1,0 +1,28 @@
+.internal-nav-container {
+    position: relative;
+    display: inline-flex;
+    background-color: var(--white);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 1rem 0;
+}
+
+.internal-nav-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 2rem;
+    width: 7.5rem;
+    padding: 1.2rem 0;
+    border-radius: 0.25rem;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#internal-nav-selector {
+    position: absolute;
+    background-color: var(--primary);
+    left: 0rem;
+    transition: left 0.25s;
+}

@@ -1,0 +1,16 @@
+.desc-input {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    resize: none;
+}
+
+.desc-input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--accent);
+}
+
+.desc-input::placeholder {
+    color: var(--gray);
+}
